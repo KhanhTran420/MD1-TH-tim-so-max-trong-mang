@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TH tìm số lớn nhất trong mảng</title>
+</head>
+<body>
+  <script>
+      let x = [5,7,6,9,8,3,2]
+      let max = x[0]
+      let index = 0
+      for (let i =0; i<x.length; i++){
+          if (x[i] > max){
+              max = x[i]
+              index = i;
+          }
+      } alert("max= " + max + "tại vị trí" + index)
+  </script>
+</body>
+</html>
